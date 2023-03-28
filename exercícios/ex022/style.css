@@ -1,0 +1,17 @@
+@charset "UTF 8";
+
+h1 {
+    background-color: cyan;
+    height: 300px;
+    width: 300px;
+    border: 10px solid gray;
+    padding: 10px;
+    margin: 10px auto 10px auto;
+    outline: 5px dashed red;
+}
+
+a {
+    border-width: 5px;
+    border-style: solid;
+    border-color: greenyellow;
+}
