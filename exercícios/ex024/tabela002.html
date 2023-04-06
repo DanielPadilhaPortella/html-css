@@ -28,6 +28,16 @@
       background-color: rgb(53, 52, 52);
       color: white;
     }
+
+    tbody > tr:nth-child(odd){ /*odd = par, even = impar*/
+      background-color: white;
+      
+    }
+
+    tbody > tr:nth-child(even){
+      background-color: lightgray;
+    }
+    
     td.num{
       text-align: right;
     }
@@ -71,12 +81,20 @@
         <td>Rio de Janeiro</td>
         <td class="num">16 615 526</td>
       </tr>
+      <tr>
+        <td>Bahia</td>
+        <td class="num">14 659 023</td>
+      </tr>
+      <tr>
+        <td>Paraná</td>
+        <td class="num">11 835 379</td>
+      </tr>
     </tbody>
 
     <tfoot>
       <tr>
         <th>Total de habitantes</th>
-        <th>83 373 123</th>
+        <th>109 867 525</th>
       </tr>
     </tfoot>
   </table>
